@@ -1,0 +1,38 @@
+.p-application-list{
+  color:$text-color;
+  font-size: rem(18);
+  line-height: 2;
+  font-family: $base-font-family;
+  margin-top: rem(51);
+}
+
+.p-application-list__item{
+  display: flex;
+  flex-wrap: wrap;
+  box-sizing: border-box;
+}
+.p-application-list__title{
+  padding: rem(14) rem(2);
+  border-top: 2px solid #99D4D9;
+  margin-right: 1%;
+  width: 20%;
+  height: inherit;
+}
+
+.p-application-list__item:last-of-type{
+
+}
+
+.p-application-list__item:last-of-type.p-application-list__title{
+  border-bottom: 2px solid #99D4D9;
+}
+
+.p-application-list__text{
+  padding: rem(14) 0 rem(14) rem(36);
+  border-top: 1px solid #EBEBEB;
+  width: 79%;
+}
+
+.p-application-list__item:last-of-type.p-application-list__text{
+  border-bottom: 1px solid #EBEBEB;
+}

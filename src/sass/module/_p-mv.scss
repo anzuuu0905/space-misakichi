@@ -1,0 +1,14 @@
+.p-mv{
+  height: (730/1440) * 100vw;
+  background-image: url(../images/common/mv.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top;
+  display: flex;
+  align-items: center;
+  padding-left: (200  /1440) * 100vw
+}
+
+.p-mv__title{
+  width: (563/1440) * 100vw;
+}

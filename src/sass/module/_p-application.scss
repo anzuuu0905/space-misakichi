@@ -1,0 +1,31 @@
+.p-application__inner{
+  width: 100%;
+  padding-right: $padding-pc;
+  padding-left: $padding-pc;
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 1000px + strip-unit($padding-pc) * 2;
+  @include mq("md") {
+    padding-right: $padding-sp;
+    padding-left: $padding-sp;
+  }
+}
+
+.p-application__title{
+  font-size: rem(28);
+  font-weight: bold;
+  line-height: calc(36/28);
+  font-family: $base-font-family;
+  color:$text-color;
+  position: relative;
+  display: inline-block;
+}
+
+.p-application__title::after{
+  position: absolute;
+  content: "";
+  top: 50%;
+  right: rem(-55);
+  border: 2px solid#63A8AD;
+  width: rem(29);
+}
