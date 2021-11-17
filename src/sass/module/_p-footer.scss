@@ -1,7 +1,10 @@
 .p-footer{
   color: $text-color;
   background-image: url(../images/common/footer.png);
+  background-repeat: no-repeat;
+  background-size: cover;
   height: rem(127);
+  width: 100%;
 }
 
 .p-footer__copyright{

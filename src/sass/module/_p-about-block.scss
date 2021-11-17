@@ -55,8 +55,10 @@
   }
 }
 .p-about-block__img--2{
-  width: rem(480);
-  right: rem(-510);
+  width: calc((480/1440)*100vw);
+  right: calc((-510/1440)*100vw);
+  // width: rem(480);
+  // right: rem(-510);
   top:rem(-70);
 }
 

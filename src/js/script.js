@@ -38,7 +38,7 @@ jQuery(function ($) { // この中であればWordpressでも「$」が使用可
 
   $(document).on('click', 'a[href*="#"]', function () {
     let time = 400;
-    let header = $('header').innerHeight();
+    let header = $('p-header').innerHeight();
     let target = $(this.hash);
     if (!target.length) return;
     let targetY = target.offset().top - header;

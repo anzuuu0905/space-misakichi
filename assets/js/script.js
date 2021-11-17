@@ -31,7 +31,7 @@ jQuery(function ($) {
 
   $(document).on('click', 'a[href*="#"]', function () {
     var time = 400;
-    var header = $('header').innerHeight();
+    var header = $('p-header').innerHeight();
     var target = $(this.hash);
     if (!target.length) return;
     var targetY = target.offset().top - header;
