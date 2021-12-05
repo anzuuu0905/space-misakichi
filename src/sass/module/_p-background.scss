@@ -1,0 +1,33 @@
+.p-background {
+  margin-top: rem(-50);
+  position: relative;
+  z-index: -999;
+}
+
+.p-background::before {
+  content: "";
+  position: absolute;
+  top: rem(8);
+  left: rem(0);
+  background-image: url(../images/common/background-left.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: calc(647 / 1440 * 100vw);
+  height: calc(4972 / 1440 * 100vw);;
+  z-index: -999;
+  max-width: 100%;
+}
+.p-background::after {
+  content: "";
+  position: absolute;
+  top: rem(219);
+  right: 0;
+  background-image: url(../images/common/background-right.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: calc(705 / 1440 * 100vw);
+  height: calc(4087 / 1440 * 100vw);;
+  z-index: -999;
+  max-height: 100%;
+  max-width: 100%;
+}

@@ -8,11 +8,12 @@ html {
   }
 
   //スマホ
+// 一時的にコメント化　2021/11/28
   @include mq(md) {
     font-size: 16px;
   }
 
-  //~375px以下
+  // ~375px以下
   @include mq(sm) {
     font-size: (16 / 375) * 100vw;
   }

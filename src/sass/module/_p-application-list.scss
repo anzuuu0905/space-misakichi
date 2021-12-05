@@ -10,6 +10,7 @@
   display: flex;
   flex-wrap: wrap;
   box-sizing: border-box;
+  // align-items: center;
 }
 .p-application-list__title{
   padding: rem(14) rem(2);
@@ -19,11 +20,7 @@
   height: inherit;
 }
 
-.p-application-list__item:last-of-type{
-
-}
-
-.p-application-list__item:last-of-type.p-application-list__title{
+.p-application-list__item:last-of-type .p-application-list__title{
   border-bottom: 2px solid #99D4D9;
 }
 
@@ -33,6 +30,6 @@
   width: 79%;
 }
 
-.p-application-list__item:last-of-type.p-application-list__text{
+.p-application-list__item:last-of-type .p-application-list__text{
   border-bottom: 1px solid #EBEBEB;
 }

@@ -9,6 +9,7 @@
   font-weight: bold;
   font-family: $base-font-family;
   width: rem(235);
+  min-width: 235px;
   height: rem(115);
   position: absolute;
   left: calc(50% - #{rem(530)});
@@ -22,26 +23,26 @@
 
 .p-content__title span:nth-child(1){
   transform: rotate(-12deg);
-  top:37px
+  top:rem(37)
 }
 
 .p-content__title span:nth-child(2){
   transform: rotate(-12deg);
-  top:21px
+  top:rem(21)
   
 }
 
 .p-content__title span:nth-child(3){
   transform: rotate(-9deg);
-  top:4px;
-  left:-2px;
+  top:rem(4);
+  left:rem(-2);
   
 }
 
 .p-content__title span:nth-child(4){
   transform: rotate(4deg);
-  top:0px;
-  left: -8px;
+  top:0;
+  left:rem(-8);
 }
 
 .p-content__inner{
@@ -62,6 +63,9 @@
 
 .p-content__item{
   position: absolute;
+  // @include mq(md){
+  //   font-size: vw(strip-unit($inner), 16);
+  // }
 }
 
 .p-content__item:nth-child(1){
@@ -97,6 +101,9 @@
   font-size: rem(24);
   color:$text-color;
   line-height: calc(40/24);
+  // @include mq(md){
+  //   font-size: vw(strip-unit($inner), 16);
+  // }
 }
 
 

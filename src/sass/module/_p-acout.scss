@@ -40,6 +40,7 @@
 .p-about__title span:nth-child(2){
   top: rem(20);
   transform:rotate(12deg);
+  left: rem(-3);
 }
 .p-about__title span:nth-child(3){
   top: rem(20);
@@ -58,30 +59,36 @@
   padding-right: 12px;
 }
 .p-about__title span:nth-child(7){
-  top:rem(2)
+  top:rem(2);
+  left:rem(-9);
 }
 .p-about__title span:nth-child(8){
   top: rem(20);
   transform:rotate(12deg);  
+  left:rem(-9);
   
 }
 .p-about__title span:nth-child(9){
   top: rem(2);
   transform:rotate(8deg);  
+  left:rem(-9);
   
 }
 .p-about__title span:nth-child(10){
   top: rem(18);
+  left:rem(-9);
   
 }
 .p-about__title span:nth-child(11){
   top: rem(3);
   transform:rotate(12deg);  
+  left:rem(-9);
   
 }
 .p-about__title span:nth-child(12){
   top: rem(18);
   transform:rotate(12deg);  
+  left:rem(-9);
   
 }
 

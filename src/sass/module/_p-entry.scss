@@ -1,0 +1,17 @@
+.p-entry{
+  display: flex;
+  position: fixed;
+  justify-content: center;
+  align-items: center;
+  right: calc(36/1440*100vw);
+  top:calc(586/1075*100vw);
+  background: linear-gradient(135deg,#63A8AD,#466B77);
+  color: white;
+  width: rem(164);
+  height: rem(164);
+  border-radius: 50%;
+  z-index :99999;
+  opacity: 1;
+  font-size: rem(20);
+  font-weight: bold;
+}
